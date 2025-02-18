@@ -1,6 +1,6 @@
-baseURL = "https://www.ryanle1017.github.io/"
+baseURL = "https://ryanle1017.github.io/"
 theme = "hugo-apero"
-languageCode = "en"
+languageCode = "zh-cn"
 title = "Ryan Apéro"
 author = "Ryan Le"
 copyright = "@2025 Ryan" # set to override the auto generated copyright using org info and now year
@@ -131,15 +131,15 @@ enableEmoji = true
       icon_pack = "fas"
       url       = "/blog/index.xml"
 
-  # # 英文字体
-  # [params.en]
-  #   customtextFontFamily = "Commissioner"
-  #   customheadingFontFamily = "Fraunces"
+  # 英文字体
+  [params.en]
+    customtextFontFamily = "Commissioner"
+    customheadingFontFamily = "Fraunces"
     
-  # # 中文字体
-  # [params.zh]
-  #   customtextFontFamily = "Noto Sans SC" # 思源黑体
-  #   customheadingFontFamily = "Noto Serif SC" # 思源宋体
+  # 中文字体
+  [params.zh]
+    customtextFontFamily = "Noto Sans SC" # 思源黑体
+    customheadingFontFamily = "Noto Serif SC" # 思源宋体
 
 [taxonomies]
   category = "categories"
@@ -219,18 +219,18 @@ enableEmoji = true
     disable = false
     privacyEnhanced = true
 
-# defaultContentLanguage = "en"
-# defaultContentLanguageInSubdir = true
+defaultContentLanguage = "zh"
+defaultContentLanguageInSubdir = true
 
-# [languages]
-#   [languages.en]
-#     languageCode = "en-us"
-#     languageName = "English"
-#     title = "Ryan Apéro"
-#     weight = 1
+[languages]
+  [languages.zh]
+    languageCode = "zh-cn"
+    languageName = "中文"
+    title = "Ryan Apéro"
+    weight = 1
     
-#   [languages.zh]
-#     languageCode = "zh-cn"
-#     languageName = "中文"
-#     title = "Ryan Apéro"
-#     weight = 2
+  [languages.en]
+    languageCode = "en-us"
+    languageName = "English"
+    title = "Ryan Apéro"
+    weight = 2
